@@ -6,8 +6,8 @@ MENU_RELATORIOS="""Relatórios
 """
 
 MENU_ENTIDADES = """Entidades
-1 - Pessoas
-2 - Dados
+1 - Pessoa
+2 - Dados para agenda
 """
 
 MENU_PRINCIPAL = """Menu Principal
