@@ -1,7 +1,7 @@
 from model.Pessoa import Pessoa
 from conexion.oracle_queries import OracleQueries
 
-class Controller_Cliente:
+class Controller_Pessoa:
     def __init__(self):
         pass
         
