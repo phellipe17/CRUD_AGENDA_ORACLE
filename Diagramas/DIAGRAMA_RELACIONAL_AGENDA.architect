@@ -39,13 +39,13 @@
     <column id="COL8" populated="true" UUID="b206438a-9476-4cca-bb79-d3665352b130" autoIncrement="false" autoIncrementSequenceName="AGENDA_ID_AGENDA_seq" defaultValue="" name="ID_AGENDA" nullable="0" physicalName="ID_AGENDA" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL9" populated="true" UUID="62cb5eee-c4d4-4374-b068-ba478ad459f9" autoIncrement="false" autoIncrementSequenceName="AGENDA_TELEFONE_seq" defaultValue="" name="TELEFONE" nullable="0" physicalName="TELEFONE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL9" populated="true" UUID="f1dad7de-dde8-4ab2-82c1-08a39e7aa84b" autoIncrement="false" autoIncrementSequenceName="AGENDA_NOMEPESSOA_seq" defaultValue="" name="NOMEPESSOA" nullable="0" physicalName="NOMEPESSOA" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL10" populated="true" UUID="c46ba885-061e-4026-acc5-496ad7b15675" autoIncrement="false" autoIncrementSequenceName="AGENDA_ENDERECO_seq" defaultValue="" name="ENDERECO" nullable="0" physicalName="ENDERECO" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL10" populated="true" UUID="62cb5eee-c4d4-4374-b068-ba478ad459f9" autoIncrement="false" autoIncrementSequenceName="AGENDA_TELEFONE_seq" defaultValue="" name="TELEFONE" nullable="0" physicalName="TELEFONE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL11" populated="true" UUID="268597ff-376d-4321-8a53-c3d11d10c77b" autoIncrement="false" autoIncrementSequenceName="AGENDA_NOME_seq" defaultValue="" name="NOME" nullable="0" physicalName="NOME" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL11" populated="true" UUID="c46ba885-061e-4026-acc5-496ad7b15675" autoIncrement="false" autoIncrementSequenceName="AGENDA_ENDERECO_seq" defaultValue="" name="ENDERECO" nullable="0" physicalName="ENDERECO" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL12" populated="true" UUID="07d52eec-cca2-47ef-85f4-c5b32e0a5c5c" autoIncrement="false" autoIncrementSequenceName="PESSOA_ID_PESSOA_seq" defaultValue="" name="ID_PESSOA" nullable="0" physicalName="ID_PESSOA" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >

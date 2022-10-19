@@ -2,7 +2,7 @@
 DROP TABLE Pessoa;
 DROP TABLE Agenda;
 
--- Formando estrutura para tabela basedados_agenda.Pessoa
+-- Formando estrutura para tabela labdatabase.Pessoa
   CREATE TABLE pessoa (
   id_pessoa int GENERATED ALWAYS AS IDENTITY NOT NULL,
   nome varchar2(100) NOT NULL,
@@ -11,8 +11,9 @@ DROP TABLE Agenda;
 );
 
 -- Formando estrutura para tabela basedados_agenda.Agenda
-  CREATE TABLE agenda (
+  CREATE TABLE dados (
   id_agenda int GENERATED ALWAYS AS IDENTITY NOT NULL,
+  nomepessoa varchar2(100) NOT NULL,
   endereco varchar2(100) NOT NULL,
   telefone varchar2(20) DEFAULT NULL,
   e_mail varchar2(100) DEFAULT NULL,
