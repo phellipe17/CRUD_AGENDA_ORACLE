@@ -7,18 +7,19 @@ DROP TABLE Agenda;
   id_pessoa int GENERATED ALWAYS AS IDENTITY NOT NULL,
   nome varchar2(100) NOT NULL,
   cpf varchar2(17) NOT NULL,
-  PRIMARY KEY (id_pessoa)
+  PRIMARY KEY (cpf)
 );
 
 -- Formando estrutura para tabela basedados_agenda.Agenda
   CREATE TABLE dados (
   id_agenda int GENERATED ALWAYS AS IDENTITY NOT NULL,
+  cpf varchar2(17) NOT NULL,
   nomepessoa varchar2(100) NOT NULL,
   endereco varchar2(100) NOT NULL,
   telefone varchar2(20) DEFAULT NULL,
   e_mail varchar2(100) DEFAULT NULL,
   PRIMARY KEY (id_agenda),  
-  CONSTRAINT agenda_ibfk FOREIGN KEY (id_agenda) REFERENCES pessoa (id_pessoa) ON DELETE CASCADE
+  CONSTRAINT agenda_ibfk FOREIGN KEY (cpf) REFERENCES pessoa (cpf) ON DELETE CASCADE
 );
 
 --Join
