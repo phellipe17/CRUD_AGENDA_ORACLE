@@ -10,6 +10,14 @@ MENU_ENTIDADES = """Entidades
 2 - Dados
 """
 
+MENU_PRINCIPAL = """Menu Principal
+1 - Relatórios
+2 - Inserir registro
+3 - Atualizar registro
+4 - Remover registro
+5 - Sair
+"""
+
 # Consulta de contagem de registros por tabela
 QUERY_COUNT = 'select count(1) as total_{tabela} from {tabela}'
 
